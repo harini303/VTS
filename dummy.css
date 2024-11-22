@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+.navbar {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 2px solid white;
+    align-items: center;
+    position: sticky;
+    z-index: 5;
+    top: 0;
+    background-color: #f59042;
+height: 90px;
+}
+
+.navbar__s1 img {
+    width: 200px;
+}
+
+.navbar__s2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__s2 a {
+    color: rgb(14, 14, 137);
+    text-decoration: none;
+
+}
+
+.navbar__s2 a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown:hover {
+    color: black;
+    text-decoration: underline;
+    align-items: center;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f2f2f4;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(14, 14, 137);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f59042;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#menu-icon{
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+.slider {
+    position: relative;
+
+}
+
+.slider-left-button {
+    position: absolute;
+}
+
+.slider-left-button .slider-right-button i {
+    font-size: 25px;
+}
+
+.slider-img img {
+    height: 70vh;
+    width: 100vw;
+}
+
+.main-container {
+    display: flex;
+    transition: 2s;
+    overflow: hidden;
+}
+
+.slider-container {
+    display: flex;
+    overflow: hidden;
+
+}
+
+.slider-right-button {
+    position: absolute;
+    top: 45%;
+    margin: 30px;
+    left: 90%;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.slider-left-button {
+    position: absolute;
+    top: 45%;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.section__two {
+    display: flex;
+    gap: 30px;
+    margin: 10px;
+    padding: 10px;
+}
